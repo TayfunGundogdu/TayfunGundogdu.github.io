@@ -1,34 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Name - CV</title>
-  <style>
-    body { font-family: Arial; margin: 40px; line-height: 1.6; }
-    h1 { color: #2c3e50; }
-    h2 { border-bottom: 1px solid #ccc; }
-  </style>
+  <meta charset="UTF-8">
+  <title>Your Name</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Your Name</h1>
-  <p>Email: your@email.com</p>
-  <p>LinkedIn: your link</p>
+  <!-- Navbar -->
+  <nav>
+    <h2>YourName</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <h2>Summary</h2>
-  <p>Write a short professional summary here.</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hi, I'm Your Name 👋</h1>
+    <p>Aspiring Developer | Problem Solver</p>
+  </section>
 
-  <h2>Experience</h2>
-  <p><strong>Job Title</strong> - Company (Year - Year)</p>
-  <p>Description of your work.</p>
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a developer passionate about building clean and useful applications.
+    </p>
+  </section>
 
-  <h2>Education</h2>
-  <p>Degree - School</p>
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Skill 1</li>
-    <li>Skill 2</li>
-  </ul>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Short description of your project.</p>
+    </div>
 
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Another project description.</p>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
