@@ -1,9 +1,10 @@
 const toggle = document.getElementById("theme-toggle");
 
 // Load saved theme
-if (localStorage.getItem("theme") === "dark") {
-  document.body.classList.add("dark");
-  toggle.textContent = "☀️";
+if (!localStorage.getItem("theme")) {
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    document.body.classList.add("dark");
+  }
 }
 
 toggle.addEventListener("click", () => {
