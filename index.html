@@ -2,56 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tayfun Gundogdu, PhD(X2)</title>
+  <title>Tayfun Gundogdu, PhD(x2), SMIEEE</title>
+
+  <!-- Font (important for 1:1 look) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Toggle -->
+  <div class="toggle" id="theme-toggle"></div>
+
   <!-- Navbar -->
   <nav>
-    <h2>Tayfun Gundogdu, PhD(x2)</h2>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button id="theme-toggle">🌙</button>
+    <h3>Tayfun Gundogdu, PhD</h3>
+    <div>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="hero">
-    <h1>Hi, I'm Tayfun Gundogdu 👋</h1>
-    <p>Electromagnetics Design Engineer | Problem Solver</p>
+    <h1>Hi, I'm Tayfun Gundogdu</h1>
+    <p>Principal Electromagnetic Design Engineer and Manager</p>
   </section>
 
   <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
+  <section id="about" class="fade">
+    <h2>About</h2>
     <p>
-      I'm a designer passionate about building high efficiency electrical machines.
+      I design high efficiency electrical machines.
     </p>
   </section>
 
   <!-- Projects -->
-  <section id="projects">
+  <section id="projects" class="fade">
     <h2>Projects</h2>
 
-    <div class="project">
-      <h3>Project 1</h3>
-      <p>Short description of your project.</p>
+    <div class="card">
+      <h3>Project One</h3>
+      <p>Short description</p>
     </div>
 
-    <div class="project">
-      <h3>Project 2</h3>
-      <p>Another project description.</p>
+    <div class="card">
+      <h3>Project Two</h3>
+      <p>Short description</p>
     </div>
 
   </section>
 
   <!-- Contact -->
-  <section id="contact">
+  <section id="contact" class="fade">
     <h2>Contact</h2>
-    <p>Email: your@email.com</p>
+    <p>your@email.com</p>
   </section>
 
   <script src="script.js"></script>
